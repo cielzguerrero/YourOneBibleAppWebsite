@@ -1,0 +1,118 @@
+/* .titlecard
+{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+} */
+
+.titlecard
+{
+  position: relative;
+  height: 500px;
+  width:100%;
+  overflow: hidden;
+}
+.videobg
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(0%, -50%);
+  z-index: -1;
+
+}
+.overlay
+{
+  position: absolute;
+  z-index: 0;
+  mix-blend-mode: overlay;
+  padding: 200vh;
+  height: 500px;
+  width: auto;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  opacity: 0.5;
+}
+
+/* .titlecard::before
+{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+.titlecard:hover::before
+{
+  opacity: 1;
+} */
+.title
+{
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+  padding-top: 7rem;
+
+}
+/* .titlecard
+{
+  width: 100%;
+  height: 500px;
+  padding-top: 5rem;
+}
+.title
+{
+  font-size: 6rem;
+  font-weight: 700;
+} */
+.title h1
+{
+  margin: auto;
+  
+}
+.contactus
+{
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    z-index: 1000;
+    background:url(img/landing_page_newsletter.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.contactusinfo
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60%;
+    background: white;
+    border: 1px solid #ffffff;
+    transform: translate(0%, 25%);
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 50px black; */
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .contactusinfo
+    {
+        width: 95%;
+    }
+  }

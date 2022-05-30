@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/includes/css/bootstrap.css">
+    <link rel="stylesheet" href="/includes/mystyle.css">
+    <link rel="stylesheet" href="/includes/navbar.css">
+    <link rel="stylesheet" href="/includes/contactus.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>YourOne - Contact Us</title>
+</head>
+<body>
+    <!-- ----------------- This is where header is placed ---------------- -->
+    <nav class="nav navbar navbar-expand-lg navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"><span class="logo">YourOne</span></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item link">
+                <a href="get_the_app.html" class="nav-link">Get The App</a>
+              </li>
+              <li class="nav-item link">
+                <a href="mission.html" class="nav-link">Our Mission</a>
+              </li>
+              <li class="nav-item link">
+                <a href="services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item link">
+                <a href="contact.html" class="nav-link active">Contact Us</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ----------------- END ---------------- -->
+<section class="titlecard">  
+  <video class="videobg" src="includes/videos/contact.mp4" muted loop autoplay></video>
+  <div class="overlay"></div>
+        <div class="px-4 py-5 my-5 text-center">
+                <h1 class="title">Contact Us</h1>
+        </div>
+</section>
+<section class="contactus">
+  <div class="contactusinfo shadow-lg">
+    <div class="container">
+        <h1 class="contus pt-5">Contact Us</h1>
+          <p style="font-size:20px;font-weight: 300;padding-bottom: 4;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <form class="pb-4"action="">
+            <div class="row pb-4">
+              <div class="col">
+                <label for="firstnameID">Name</label>
+                <input type="text" class="form-control" placeholder="Enter Your Name" id="firstnameID">
+              </div>
+              <div class="col">
+                <label for="emailID">Email*</label>
+                <input type="email" class="form-control" placeholder="Enter Your Email" id="emailID">
+              </div>
+            </div>
+          <div class="row pb-4">
+            <div class="col">
+              <label for="organizationID">Organization(if Applicable)</label>
+              <input type="text" class="form-control" placeholder="Name of Organization of Church" id="organizationID">
+            </div>
+            <div class="col">
+              <label for="reasonID">Why are you contacting us?*</label>
+              <select id="reasonID" class="form-control">
+                <option selected>Subject</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+          <label for="textbox">Your Message</label>
+          <textarea class="form-control mb-3" aria-label="With textarea" id="textbox" placeholder="Type your message here..."></textarea>
+          <button type="button" class="btn" style="background: #7537B3 ; color:white;">Send Message</button>
+          </form>
+      </div>   
+  </div>
+</section>
+<!-- -----footer----- -->
+<footer class="nav p-5 text-center text-dark position-relative">
+    <div class="container">
+      <h5 class="footer-title text-white pb-2 mb-2">YourOne</h5>
+      <ul class="nav justify-content-center pb-2 mb-2">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Get The App</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Our Mission</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contact Us</a></li>
+      </ul>
+      <p class="text-center text-white">@ YourOne 2022 Copyright | Terms of Use</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="fas fa-arrow-circle-up h1"></i>
+      </a>
+    </div>
+  </footer>
+  <script>
+    ScrollReveal({
+      reset: false,
+      distance: '60px',
+      duration: 2500,
+      delay: 400
+    });
+    ScrollReveal().reveal('.title', { delay: 500, origin: 'bottom' });
+    ScrollReveal().reveal('.aboutyo', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.uronemid', { delay: 500, origin: 'bottom' }); 
+    ScrollReveal().reveal('.topdesc', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.lowdesc', { delay: 500, origin: 'left' });
+    ScrollReveal().reveal('.picdesc', { delay: 500, origin: 'right' });
+    ScrollReveal().reveal('.contactusinfo', { delay: 500, origin: 'bottom' });
+  </script>
+<!-- -----end footer----- -->
+<script src="https://kit.fontawesome.com/9fb78288eb.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>    
+</html>
