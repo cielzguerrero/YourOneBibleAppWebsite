@@ -107,6 +107,7 @@
   /* For mobile phones: */
   .title
   {
-      padding-top: 2rem;
+      font-size: 3.6rem;
+      padding-top: 6.5rem;
   }
 }

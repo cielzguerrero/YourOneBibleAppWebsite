@@ -209,11 +209,18 @@ a {
     /* For mobile phones: */
     .hero-text
     {
-        padding-top: 1.2rem;
+        font-size: 3.6rem;
+        padding-top: 2.7rem;
     }
     .app-hero-text
     {
-        padding-top: 2.3rem;
+        font-size: 3.6rem;
+        padding-top: 2.7rem;
+    }
+    .services-hero-text
+    {
+        font-size: 3.6rem;
+        padding-top: 5rem;
     }
     .undermsg
     {
@@ -225,8 +232,8 @@ a {
     }
     .advertise-text
     {
-        font-size: 3em;
-        padding-top: 1em;
+        font-size: 2.7em;
+        padding-top: 0.3em;
     }
     .message{
         transform: translate(10%, -170%);
