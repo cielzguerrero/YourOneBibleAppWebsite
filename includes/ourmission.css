@@ -72,9 +72,9 @@
 }
 .title
 {
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 700;
-  padding-top: 7rem;
+  padding-top: 8rem;
 
 }
 .title h1
@@ -107,7 +107,15 @@
   /* For mobile phones: */
   .title
   {
-      font-size: 3.6rem;
       padding-top: 6.5rem;
+      font-size: 3.7rem;
+  }
+  .lowdesc
+  {
+    padding-bottom: 0rem;
+  }
+  #imgup
+  {
+    padding-top: 0rem !important;
   }
 }

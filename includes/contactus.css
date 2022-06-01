@@ -60,9 +60,9 @@
 .title
 {
   color: white;
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 700;
-  padding-top: 7rem;
+  padding-top: 8rem;
 
 }
 .contus {
@@ -89,6 +89,10 @@
   margin-bottom:1em
 }
 
+.send{
+  text-align: center !important;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .contactusinfo
@@ -96,7 +100,8 @@
         width: 95%;
     }
     .title{
-      font-size: 3.6rem;
-      padding-top: 8rem;
+      font-size: 4rem;
+      padding-top: 6.8rem;
     }
+    
   }

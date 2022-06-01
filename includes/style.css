@@ -101,6 +101,10 @@ body::before {
   padding-top: 6rem;
 
 }
+.subscribe{
+    width: 100%;
+    height: 100%;
+}
 
 .app-hero-text
 {
@@ -141,21 +145,33 @@ a {
 .message
 {
     position: absolute;
-    transform: translate(10%, -100%);
+    transform: translate(15%, -110%);
     bottom: 0;
-    width: 225px;
+    left: 0;
+    margin: 0;
+    margin-right: 0;
+    padding: 0rem;
     color: White;
     font-size: 35px;
+}
+#msg1
+{
+    padding-left: .8rem;
+}
+#msg2
+{
+    padding-left: .35rem;
 }
 .undermsg
 {
     position: absolute;
-    transform: translate(7.5%, -50%);
+    transform: translate(10.5%, -50%);
     max-width: 300px;
     color: White;
     font-size: 15px;
     font-weight: 300;
     bottom: 0;
+    left: 0;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -193,7 +209,7 @@ a {
 {
   font-size: 4.5rem;
   font-weight: 700;
-  padding-top: 4rem;
+  padding-top: 5rem;
 
 }
 .preaches{
@@ -222,21 +238,44 @@ a {
         font-size: 3.6rem;
         padding-top: 5rem;
     }
+    .message
+    {
+        margin-top: 5rem;
+        text-align: center;
+        transform: translate(15%, -130%) !important;
+    }
+    #msg1
+    {
+        padding-left: 1.2rem;
+    }
+    #msg2
+    {
+        padding-left: .8rem;
+    }
+    #msg3
+    {
+        padding-left: .4rem;
+    }
     .undermsg
     {
-        margin-bottom: 3rem;
+        transform: translate(20%, 100%);
+        margin-bottom: 3.5rem;
+        max-width: 200px;
     }
     .overlayfeat
     {
-        padding-right: 20.9vh;
+        padding-right: 18.5vh;
+        transform: translate(4.4%);
     }
     .advertise-text
     {
-        font-size: 2.7em;
+        font-size: 2.9em;
         padding-top: 0.3em;
     }
     .message{
         transform: translate(10%, -170%);
     }
-    
+    .subscribe{
+       height: 3.2em;
+    }
 }
