@@ -216,7 +216,34 @@ a {
     background-color: #7537B3;
     color: #fff;
 }
+#musicpagebg
+{
+    background: url(images/music.jpg);
+}
+.musiccontainer
+{
+}
+#musicontents
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.musicplayer
+{
+    margin: 3rem;
+    padding: 0.2rem;
+}
+.musicthumbnail
+{
+    width: 200px;
+    max-height: 150px;
+}
+#playbutton
+{
+    padding-top: 3.5rem;
 
+}
 .footer-title {
     font-size: 2em;
 }
@@ -281,5 +308,22 @@ a {
     }
     .subscribe{
        height: 3.2em;
+    }
+    .musicthumbnail
+    {
+        width: 150px;
+        margin-left: 2rem;
+    }
+    #musicontents
+    {
+        display: inline;
+    }
+    #playbutton
+    {
+        padding-top: 0rem;
+    }
+    .musicplayer
+    {
+        margin: 0rem;
     }
 }
